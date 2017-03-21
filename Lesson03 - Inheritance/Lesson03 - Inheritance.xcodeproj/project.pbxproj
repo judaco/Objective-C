@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		879E51D81E819B76001BDB1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 879E51D71E819B76001BDB1C /* main.m */; };
+		879E51E01E81A24B001BDB1C /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 879E51DF1E81A24B001BDB1C /* Rectangle.m */; };
+		879E51E31E81A274001BDB1C /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 879E51E21E81A274001BDB1C /* Square.m */; };
+		879E51E61E81A292001BDB1C /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 879E51E51E81A292001BDB1C /* XYPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		879E51D41E819B76001BDB1C /* Lesson03 - Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lesson03 - Inheritance"; sourceTree = BUILT_PRODUCTS_DIR; };
 		879E51D71E819B76001BDB1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		879E51DE1E81A23A001BDB1C /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		879E51DF1E81A24B001BDB1C /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		879E51E11E81A265001BDB1C /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		879E51E21E81A274001BDB1C /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		879E51E41E81A282001BDB1C /* XYPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		879E51E51E81A292001BDB1C /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				879E51D71E819B76001BDB1C /* main.m */,
+				879E51DE1E81A23A001BDB1C /* Rectangle.h */,
+				879E51DF1E81A24B001BDB1C /* Rectangle.m */,
+				879E51E11E81A265001BDB1C /* Square.h */,
+				879E51E21E81A274001BDB1C /* Square.m */,
+				879E51E41E81A282001BDB1C /* XYPoint.h */,
+				879E51E51E81A292001BDB1C /* XYPoint.m */,
 			);
 			path = "Lesson03 - Inheritance";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879E51E31E81A274001BDB1C /* Square.m in Sources */,
 				879E51D81E819B76001BDB1C /* main.m in Sources */,
+				879E51E01E81A24B001BDB1C /* Rectangle.m in Sources */,
+				879E51E61E81A292001BDB1C /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
