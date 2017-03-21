@@ -17,6 +17,7 @@
 //-(void) setDenominator: (int) d;
 -(void) setTo: (int) n over: (int) d;
 -(double) convertToNum;
+-(Fraction *) clone;
 -(void) add: (Fraction*) f;
 -(void) subtract: (Fraction*) f;
 -(void) multiply: (Fraction*) f;
