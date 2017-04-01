@@ -12,7 +12,7 @@
 
 @interface Rectangle : NSObject
 @property int width, height;
-
+-(instancetype)initWithWidth:(int)w andHeight:(int)h andOrigin:(XYPoint*) o;
 -(int) area;
 -(int) perimeter;
 -(void) setWidth: (int) w andHeight: (int) h;

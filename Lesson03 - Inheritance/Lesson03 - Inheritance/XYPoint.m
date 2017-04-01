@@ -10,6 +10,14 @@
 
 @implementation XYPoint
 @synthesize x, y;
+-(instancetype)initWithX:(int)xVal andY:(int)yVal{
+        self = [super init];
+            if(self){
+                [self setX:xVal andY:yVal];
+            }
+        return self;
+    }
+
 -(void)setX:(int)xVal andY:(int)yVal {
     x = xVal;
     y = yVal;

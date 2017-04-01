@@ -12,6 +12,7 @@
 
 @property int numerator, denominator;
 
+-(instancetype) initWithNumerator: (int) n andDenominator:(int) d;
 //methods and properties
 //property - it looks like a field, but it's a method, which in the background there's a field
 

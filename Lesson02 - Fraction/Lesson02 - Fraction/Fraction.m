@@ -14,6 +14,14 @@
 
 @synthesize numerator, denominator;//create getters and setters, without their visibility in my code
 
+-(instancetype)initWithNumerator:(int)n andDenominator:(int)d{
+       self = [super init];
+        if(self){
+                [self setTo:n over:d];
+            }
+    return self;
+    }
+
 /*{
  int numerator;//all the params in Objective-C are private
  int denominator;
@@ -100,21 +108,5 @@
     numerator /= u;
     denominator /= u;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @end
 

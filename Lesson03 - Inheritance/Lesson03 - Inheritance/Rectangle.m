@@ -14,6 +14,16 @@
 }
 
 @synthesize width, height;
+
+-(instancetype)initWithWidth:(int)w andHeight:(int)h andOrigin:(XYPoint *)o{
+        self = [super init];
+        if(self){
+                [self setWidth:w andHeight:h];
+               [self setOrigin:o];
+           }
+        return self;
+    }
+
 -(void)setWidth:(int)w andHeight:(int)h {
     width = w;
     height = h;

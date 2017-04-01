@@ -10,6 +10,7 @@
 
 @interface XYPoint : NSObject
 @property int x, y;
+-(instancetype)initWithX:(int) xVal andY:(int) yVal;
 
 -(void) setX: (int) xVal andY: (int) yVal;
 
