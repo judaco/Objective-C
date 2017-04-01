@@ -23,30 +23,30 @@
 }
 //go look at the Dog = (Dog *) - this is an override
 //-(instancetype)init{
- //   self = [super init];
-//    if (self) {//like boolean, if self is not nil (=0)
-//        name = @"snoopy";
-//        age = 0;
-//    }
-//    return self;
+// self = [super init];
+// if (self) {//like boolean, if self is not nil (=0)
+// name = @"snoopy";
+// age = 0;
+// }
+// return self;
 //}
 -(instancetype)init {
     return [self initWithName:@"Snoopy"];
 }
 //-(instancetype)initWithName: (NSString *) n{
-//    self = [super init];
-//    if (self) {//like boolean, if self is not nil (=0)
- //       name = @"snoopy";
- //       age = 0;
-//    }
- //   return self;
+// self = [super init];
+// if (self) {//like boolean, if self is not nil (=0)
+// name = @"snoopy";
+// age = 0;
+// }
+// return self;
 //}
 -(instancetype)initWithName: (NSString *) n{
-    return [self initWithName:n andAge:0];
+    return [self initWithName:n andAge:0];//the default value of age will be 0
 }
 
 -(instancetype)initWithName:(NSString *)n andAge: (int)a{
-    self = [super init];
+    self = [super init];//the main initializer
     if(self){
         name = n;
         age = a;
